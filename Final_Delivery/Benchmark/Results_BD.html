@@ -1,0 +1,320 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<title>CSP 554 -  Project</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
+</head>
+<body>
+     <ul  class = "topbar">
+        <li class="title">CSP 554 - Project Benchmark</li>
+        <li class = "cent">IaaS</li>
+        <li class="return"><a href="index.html"> Return to Home Page</a></li>
+    </ul>
+    
+    
+ <h2>The best proviers for Big Data analysis are Google Cloud and Amazon Web Services</h2>   
+
+	 
+     <div class= "rowinitial0">
+        <div class= "column2">    
+            <div class= "row"> 
+                <div class= "column">    
+                <img class=icon src="Benchmark_IMG/AWS.png"> 
+                </div>    
+                <h3 class = "AWS">Amazon Web Services - RedShift </h3>    
+            </div>
+            <div class= "list">
+                <div class= "list">
+                    <ul class = "descript">
+
+                        <li class = "list2">If your company uses Amazon Simple Storage, RedShift Spectrum enables you to run RedShift queries directly against Amazon S3 storage, 
+                            which is excellent for accessing your data lakes. If so, RedShift Spectrum is almost certainly a superior choice for your company.</li>
+    
+                        <li class = "list2">You have the option of using RedShift's huge Dense Storage or its dense compute. You can spin up a 160GB dc2.large node for $0.25 per hour, 
+                            which is the least expensive node you can buy. Dense Storage costs $4.25 per TB per hour to operate</li>
+    
+                        <li class = "list2">This makes using RedShift interesting. You can significantly reduce costs if you can predict your run-times and how frequently 
+                            you'll need to spin up each node, especially if you pay in advance. </li>
+    
+                    </ul>
+                </div>
+    
+            </div> 
+        </div> 
+        <div class= "column2">         
+            <img class="imga1" src="Images/AWS_Redshit.png"> 
+        </div> 
+     
+	 </div> 
+
+     <div class= "rowinitial">   
+        <div class= "column2">    
+            <div class= "row"> 
+                <div class= "column">    
+                <img class=icon src="Benchmark_IMG/Google.png"> 
+                </div>    
+                <h3>Google Cloud - BigQuery</h3>    
+            </div>
+            <div class= "list3">
+                <ul class = "descript">
+
+                    <li class = "list2">Google will offer more services than AWS does, this gives Google the advantage in the Big Data segment, but we are just focusing
+                        the analysis on Data Warehouse </li> 
+
+
+                    <li class = "list2">BigQuery is suitable for heavy queries, those that operate using a big set of data. The bigger the dataset,
+                         the more it is likely to gain in performance. This is when compared to the traditional relational databases BigQuery implements
+                         different parallel schemas to speed up the execution time.</li>
+
+                         
+                    <li class = "list2">Considering the pricing for the service if you run rapid queries a few times a day, you do data mining operations 
+                        or you are a data scientist running ML BigQuery would be a far better option</li>
+                </ul>
+                </div>
+    
+            </div> 
+    
+            <div class= "column2">         
+                <img class="imga2" src="Images/google-bigquery.png"> 
+            </div> 	 
+	 </div> 
+     <div class= "rowinitial">
+        <h4>Conclusions</h4>
+
+        <p>There isn't a winner here. RedShift is more economical for everyday data warehouse operations for most businesses. 
+            But, BigQuery is better for businesses looking to do data mining or those who deal with extremely variant workloads.
+        </p>	 
+        </div> 
+	<script type="text/javascript">
+
+    </script>
+
+
+</body>
+</html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        * {
+            font-family: Cambria;
+            padding: 0;
+            margin: 0;
+        }
+        .cent{
+            margin-left: 0.5%;
+            border-right: none;
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .return{
+            float: right;
+            border-right: none;
+            margin-right: 5%;
+        }
+        a {
+            font-size: 100%;
+            display: block;
+            line-height: 2.4em;
+            text-align: center;
+            color: white;
+            margin: auto;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .imga1 {
+            margin-top: 10%;
+            margin-left: 40%;
+            width: 50%;        
+        }
+        .imga2 {
+            margin-top: 20%;
+            margin-left: 40%;
+            width: 50%;        
+        }
+        select{
+	        height:15%;
+	        width: 37%;  
+	        text-align-last:center;
+            margin-bottom : 5%; 
+        }
+        .infoDiv2{   
+        align-items: center;
+        margin-top: 20%;     
+        margin-left: auto;
+        margin-right: auto;
+    	}
+        .infoDiv{        
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;
+    	}
+        .userinput{
+            height: 30;
+            width:220;
+        }
+        .list{
+            margin-top:5%;
+        }
+        .list2{
+            padding: 4px;
+        }
+        .list3{
+            margin-top:13%;
+        }
+        .visualizar {
+ 			background-color:#2f4f4f;
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+            color: white;
+            height: 30;
+            width:120;
+        }
+
+        .column {
+            float: left;
+            width: 12%;
+            padding: 5px;
+            height: 300px; 
+        }
+        .column2 {
+            float: left;
+            width: 42%;
+        }
+        /* Clear floats after the columns */
+        .row {
+            float: left;
+            height: 30%;
+            width: 100%;
+        }
+        
+        .rowinitial0 {
+            
+            padding-left: 5%;
+            float: left;
+            height: 30%;
+            width: 100%;
+
+        }
+        .rowinitial {
+            
+            padding-left: 5%;
+            padding-top: 12%;
+            float: left;
+            height: 30%;
+            width: 100%;
+
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        p{
+            margin-right: 10%;
+        }
+
+        button{
+            background-color:#2f4f4f;
+            display: block;
+            margin: auto;
+            color: white;
+	        width: 150px;
+	        height: 40px;
+        }
+        .topbar {
+            font-size: 20px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #2f4f4f;
+        }
+
+        h1 {
+            font-family: Cambria;
+            margin: 25px;
+            text-align: center
+        }
+
+        h2 {
+            font-family: Cambria;
+            font-size: 24px;
+            margin: 50px;
+            text-align: center;
+        }
+
+        h3 {
+            font-family: Cambria;
+            font-weight: normal;
+            font-size: 150%;
+            margin-top: 2.5%;
+        }
+        h4 {
+            font-family: Cambria;
+            font-weight: normal;
+            font-size: 150%;
+            margin-bottom: 1%;
+        }
+
+        .bloque {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -40px;
+            -webkit-border-horizontal-spacing: 100px;
+            -webkit-border-vertical-spacing: 70px;
+        }
+        .title{
+            margin-left: 5%;
+            margin-right: 3%;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+            border-right: none;
+        }
+        
+        .navbar{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .descript{
+            margin-top: 1%;
+            margin-left: 5%;
+        }
+
+        .navbaractive{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: #5f9ea0;
+        }
+        .intro {
+            text-align: center;
+            /*margin-left: 20%;
+            margin-right: 20%;*/
+            font-size: 25px;
+        }
+        .icon {
+            display: block;
+            margin-left: 10%;
+            width: 85%;        
+        }
+    </style>
+</head>
